@@ -8,22 +8,22 @@ Assigment Week 3 - Course  hhttps://www.coursera.org/learn/golang-getting-starte
 
 [Coursera - Getting Started with Go](https://www.coursera.org/learn/golang-getting-started/home/welcome)
 
-### Week 4 - Module 4 Activity 1: makejson.go
+## Week 4 - Module 4 Activity 1: makejson.go
 
-#### Goals
+### Goals
 
 The goal of this program is to practice working with RFCs in Go, using JSON as an example.
 
-#### Assignment directions
+### Assignment directions
 
 Write a program which prompts the user to first enter a name, and then enter an address. Your program should create a map and add the name and address to the map using the keys “name” and “address”, respectively. Your program should use Marshal() to create a JSON object from the map, and then your program should print the JSON object.
 
-#### My assignment proposal is placed at
+### My assignment proposal is placed at
 ```sh
 makejson/makejson.go
 ```
 
-#### A sample log for its compiling a testing cycle:
+### A sample log for its compiling a testing cycle:
 
 ```sh
 devel1@vbxdeb10mate:~$ cd $GOPATH/src/github.com/pssslearning/courseraGoWeek4Assignment/makejson/
