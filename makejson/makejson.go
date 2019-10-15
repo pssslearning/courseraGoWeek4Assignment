@@ -1,9 +1,16 @@
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
 // Source code mantained at Github repository for Learning
 // https://github.com/pssslearning/courseraGoWeek4Assignment
-// --------------------------------------------------------------
+// -----------------------------------------------------------------
+// NOTE:
+// -----------------------------------------------------------------
+// For the prompt cycle I could have used diverse Reader functions
+// from the "bufio" package, but I rather tried to stick as much as
+// possible to the content that had been shown in the course videos
+// in which that package had neither been mentioned / explained
+// -----------------------------------------------------------------
 //
-// Assignment instrictions:
+// Assignment instructions:
 // ------------------------
 // Write a program which prompts the user to first enter a name, and then enter an address.
 // Your program should create a map and add the name and address to the map using the keys
@@ -36,6 +43,9 @@ func getStringFromPromt(fieldName string) (scannedString string, err error) {
 
 		if aRuneInInput == rune('\n') {
 			break
+		} else if aRuneInInput == rune('\r') {
+			// Ignore \r in Windows systems
+			continue
 		}
 
 		scannedString += string(aRuneInInput)
