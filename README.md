@@ -42,6 +42,28 @@ The PERSON map once marshalled to JSON is:
 Goodbye !!!
 ```
 
+- on my Windows 10 laptop
+
+```sh
+Microsoft Windows [Versión 10.0.18362.418]
+(c) 2019 Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\pablo.sancho>cd tmp
+C:\Users\pablo.sancho\tmp>go build makejson.go
+C:\Users\pablo.sancho\tmp>makejson.exe
+Enter:
+Please enter a string value for field name : Name
+Pablo M.F. Sancho
+Please enter a string value for field name : Address
+Fake Street,35 1st.floor 12345-VALENCIA (SPAIN)
+
+The PERSON map once marshalled to JSON is:
+{"address":"Fake Street,35 1st.floor 12345-VALENCIA (SPAIN) ","name":"Pablo M.F. Sancho"}
+
+Goodbye !!!
+```
+
+
 ## Week 4 - Module 4 Activity 2 (Final Course Activity): read.go
 
 ### Goals
@@ -63,6 +85,8 @@ read/read.go
 
 ### A sample log for its compiling a testing cycle:
 
+- on my Debian 10 linux system
+  
 ```sh
 devel1@vbxdeb10mate:~$ cd $GOPATH/src/github.com/pssslearning/courseraGoWeek4Assignment/read/
 devel1@vbxdeb10mate:~/gowkspc/src/github.com/pssslearning/courseraGoWeek4Assignment/read$ go build read.go
