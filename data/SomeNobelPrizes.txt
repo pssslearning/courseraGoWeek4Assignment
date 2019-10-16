@@ -1,4 +1,4 @@
-Michel Mayor
+cdMichel Mayor
 Didier Queloz
 Akira Yoshino
 John Goodenough
@@ -28,3 +28,4 @@ Jacques Dubochet
 Joachim Frank
 Richard Henderson
 Alice Munro
+A-long-first-name-beyond-20-character-length A-long-surnname-beyond-20-character-length
